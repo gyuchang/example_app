@@ -45,4 +45,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ghcr.io/gyuchang/example_app:latest
+          tags: ghcr.io/${{ github.repository }}:latest
